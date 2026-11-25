@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h1>College Library Membership</h1>
+    <p>Welcome to the <b>College Library</b>. Explore books and build your Knowledge. </p>
+    <p><i>Read the instructions  before applying.</i></p>
+    <a href="LmsRegistrationForm.html">Go to Registration Form</a>
+    <hr>
+    <h1>1. Lists </h1>
+    <h2>Documents Required </h2>
+    <ul>
+        <li>Student ID Card</li>
+        <li>Passport Size Photo</li>
+         </ul>
+    <h2>Application Steps</h2>
+    <ol>
+        <li>Choose a membership type</li>
+        <li>CComplete the application form</li>
+        <li>Visit the library</li>
+        </ol>
+    <dl>
+        <dt><b>ISBN</b></dt>
+        <dd>International Standard Book Number</dd>
+    </dl>
+    <hr>
+    <h1>2. Library Hours</h1>
+    <table >
+        <thead>
+            <tr>
+                <th>Day </th>
+                <th>Opening</th>
+                <th>Closing </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Monday to Friday</td>
+                <td>9:00AM </td>
+                <td>6:00PM </td>
+            </tr>
+            <tr>
+                <td> Saturday</td>
+                <td>9:00AM </td>
+                <td>1:00PM </td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h1>
+        3. Inline Frame(iframe)
+    </h1>
+    <iframe title="Library notice" srcdoc="<h3>Library Notice</h3><p>Return borrowed books within 14 days.</p>"></iframe>
+
+    <hr>
+
+    
+    <h1>4. Membership Form</h1>
+    
+        <table>
+            <tr>
+                <td>Full Name</td>
+                <td><input type="text" name="fullName" id="fullName"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label > Membership :</label></td>
+                <td>
+                   <select>
+                        <option value="Student">Student</option>
+                        <option value="Faculty">Faculty</option>
+                    </select>
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    <label>Reading Mode</label>
+                </td>
+                <td>
+                    <input type="radio" name="ReadingMode" value="Print"> Print
+                    <input type="radio" name="ReadingMode" value="Digital"> Digital
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    <label>Interest </label>
+                </td>
+                <td>
+                    <input type="checkbox" > Science
+                    <input type="checkbox" > Literature
+                    
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    <label for="comments">Book Suggestions</label>
+                </td>
+                <td>
+                    <textarea id="comments" name="comments"></textarea>
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    <input type="checkbox">
+                </td>
+                <td>
+                    <label for="terms">I agree to the terms and conditions</label>
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    <input type="submit" value="Register">
+                </td>
+                <td>
+                    <input type="submit" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </body>
+</html> 
